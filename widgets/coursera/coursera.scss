@@ -1,0 +1,70 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #dcdcdc;
+$background-color-circle:  #FFD700;
+//#80ff00
+
+//#1E9EF5
+$title-color:       rgba(255, 255, 255, 0.7);
+
+$coursera-background:  darken($background-color-circle, 15%);
+
+// ----------------------------------------------------------------------------
+// Widget-coursera styles
+// ----------------------------------------------------------------------------
+.widget-coursera {
+
+  background-color: $background-color;
+
+
+  #input-coursera{
+    margin-top: 25px;
+  }
+
+  input.coursera {
+    background-color: $coursera-background;
+    color: $background-color-circle;
+  }
+
+
+   .title{
+      font-family: gardens;
+   }
+
+  .coursera-img{
+       margin-right: 10px;
+      content: url("coursera.png");
+      float: left;
+  }
+
+  .coursera-img1 {
+         margin-right: 10px;
+      content: url("courseracolor.png");
+      float: left;
+  }
+
+  .scala-img{
+        content:url(scala.png);
+   }
+
+   .scala-img1{
+           content:url(scalacolor.png);
+   }
+
+   #coursera-images{
+     margin-top: 25px;
+     display: inline-block;
+     margin-right: 20px;
+   }
+
+   .courseracert-img{
+    margin: 0 10px 10px 0;
+      float: right;
+        content: url("courseracert.png");
+    }
+   .courseracert-img1 {
+   margin: 0 10px 10px 0;
+   float: right;
+   content: url("courseracertcolor.png"); }
+}

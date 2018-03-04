@@ -1,0 +1,11 @@
+BOIDS = Array[1,0]
+IOT = Array[1,1]
+PROFILE = 1
+BOOKS =  Array[1, 1, 1]
+COURSERACOURSE = 100
+COURSERACERTIFICATE = 1
+JAVA=0
+LINKEDIN =  Array[1, 1, 1]
+POLITICO = Array[1,1]
+LIGHTBEND = [[1,1],[1,1],[1,1]]
+GAME = 1

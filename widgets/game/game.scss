@@ -1,0 +1,58 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #dcdcdc;
+$background-color-circle:  #ffffff;
+//#80ff00
+
+//#1E9EF5
+$title-color:       rgba(255, 255, 255, 0.7);
+
+$coursera-background:  darken($background-color-circle, 15%);
+
+// ----------------------------------------------------------------------------
+// Widget-game styles
+// ----------------------------------------------------------------------------
+.widget-game {
+  background-color: $background-color;
+}
+
+
+#container{
+ display: block;
+ width: 100%;
+ height: 100%;
+}
+
+.left{
+    width:50%;
+    float: left;
+}
+
+.right{
+    width:50%;
+    float: right;
+}
+
+.game-img{
+    border-radius: 50%;
+    border: 3px solid rgba(0, 0, 0, .5);
+    box-shadow: 3px 3px 3px #888888;
+}
+
+#csharp{
+    margin-right: 25%
+}
+
+#edgechronicles{
+    margin-top: 50%
+}
+
+#unity{
+    margin-left: 25%
+}
+
+#game-title{
+    margin-top:13%;
+    margin-right:20%;
+}

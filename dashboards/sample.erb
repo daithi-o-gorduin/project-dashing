@@ -1,0 +1,80 @@
+<script type='text/javascript'>
+$(function() {
+  // These settings override the defaults set in application.coffee. You can do this on a per dashboard basis.
+  // Dashing.gridsterLayout('[{"col":2,"row":1},{"col":1,"row":1},{"col":3,"row":1},{"col":2,"row":2},{"col":3,"row":2},{"col":1,"row":2},{"col":5,"row":1},{"col":4,"row":2},{"col":2,"row":3}]')
+  Dashing.widget_base_dimensions = [370, 347]
+  Dashing.numColumns = 5
+});
+</script>
+
+
+
+<% content_for :title do %>Technology<% end %>
+<div class="gridster">
+  <ul>
+
+
+   <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+      <div data-id="boids" data-view="Boids" data-imageone="/boidhaskell.png" data-imagetwo="/boidunity.png" data-title="Boids"></div>
+    </li>
+
+    <li data-row="1" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="iot" data-view="Iot" data-imageone="/mirror.png" data-imagetwo="/lightbulb.png" data-title="IOT"></div>
+    </li>
+
+    <li data-row="1" data-col="3" data-sizex="1" data-sizey="1">
+      <div data-id="coursera" data-view="Coursera" data-title="Coursera" data-min="0" data-max="100"></div>
+    </li>
+
+    <li data-row="1" data-col="4" data-sizex="1" data-sizey="1">
+          <div data-id="game" data-view="Game" data-title="Edge Chronicles Game"
+          data-csharp="/csharp.png" data-edgechronicles="/edgechronicles.gif" data-unity="/unity.jpg"></div>
+        </li>
+
+    <li data-row="1" data-col="5" data-sizex="1" data-sizey="2">
+       <div data-id="books" data-view="Books" data-title="Books"></div>
+    </li>
+
+
+
+
+    <li data-row="2" data-col="1" data-sizex="1" data-sizey="2">
+      <div data-id="lightbend" data-view="Lightbend" data-lightbend="/lightbend.png" data-scalaone="/scalaone.png" data-scalatwo="/scalatwo.png"
+         data-playone="/playone.png" data-playtwo="/playtwo.png" data-akkaone="/akkaone.png" data-akkatwo="/akkatwo.png"></div>
+    </li>
+
+    <li data-row="2" data-col="2" data-sizex="2" data-sizey="1">
+       <div data-view="Blender" data-blender="/skyship.jpg" data-title="Blender"></div>
+    </li>
+
+
+
+       <li data-row="2" data-col="4" data-sizex="1" data-sizey="1">
+           <div  data-id="profile" data-view="Profile"></div>
+        </li>
+
+
+
+
+    <li data-row="3" data-col="2" data-sizex="1" data-sizey="1">
+      <div data-id="java" data-view="Java" data-oraclecert="/oraclecert.png"></div>
+    </li>
+
+     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
+         <div data-id="politico" data-view="Politico" data-imageone="/node.png" data-imagetwo="/kotlin.png" data-title="Politico"></div>
+     </li>
+
+    <li data-row="3" data-col="4" data-sizex="1" data-sizey="1">
+      <div data-id="linkedin" data-view="Linkedin" data-title="Profile" data-profilepic="/head.png" data-linkedinpic="/linkedin.png"
+      data-cvpic="/cv.png" data-stackoverflowpic="/stackoverflow.png"></div>
+    </li>
+
+    <li data-row="3" data-col="5" data-sizex="1" data-sizey="1">
+      <div data-view="Countdown"></div>
+    </li>
+
+
+
+
+  </ul>
+</div>

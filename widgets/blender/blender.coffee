@@ -1,0 +1,1 @@
+class Dashing.Blender extends Dashing.Widget

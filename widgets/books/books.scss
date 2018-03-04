@@ -1,0 +1,56 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #dcdcdc;
+
+$title-color:       rgba(255, 255, 255, 0.7);
+$moreinfo-color:    rgba(255, 255, 255, 0.7);
+
+// ----------------------------------------------------------------------------
+// Widget-image styles
+// ----------------------------------------------------------------------------
+.widget-books {
+ background-color: #dcdcdc;
+
+ .code-img{
+     content:url(code.png);
+      -webkit-filter: drop-shadow(5px 5px 5px #222);
+             filter:         drop-shadow(5px 5px 5px #222);
+
+ }
+
+
+ .kotlin-img {
+     content:url(kotlin.png);
+ 	 -webkit-filter: drop-shadow(5px 5px 5px #222);
+         filter:         drop-shadow(5px 5px 5px #222);
+
+ }
+
+ .haskell-img {
+     content:url(haskell.png);
+ 	 -webkit-filter: drop-shadow(5px 5px 5px #222);
+         filter:         drop-shadow(5px 5px 5px #222);
+
+ }
+
+ .code-img0 {  content:url(code.png);}
+ .code-img1 {  content:url(codecolor.png); }
+
+ .kotlin-img0 {  content:url(kotlinbook.png);}
+ .kotlin-img1 {  content:url(kotlinbookcolor.png); }
+
+ .haskell-img0 {  content:url(haskell.png);}
+ .haskell-img1 {  content:url(haskellcolor.png); }
+
+}
+
+#title-book{
+    margin-top:10%
+}
+
+.book{
+    height: 28%;
+}
+
+
